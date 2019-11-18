@@ -6,6 +6,8 @@ However, Twitter sorts the list of followers according to following date, with t
 - the date at which an "earlier" follower's account was created, if this happened more recently than the creation of X's account or
 - the date at which X's account was created otherwise.
 
+The "earliest possible following" dates thus created are least informative when all followers have been on Twitter for a very long time; they are more informative when many followers joined Twitter more recently. 
+
 The function assumes that the follower objects stored as Python dictionnaries in a list. With tweepy, the following code would produce such a list from the followers of my Twitter profile:
 
 Setting up a Twitter API keys and session...
