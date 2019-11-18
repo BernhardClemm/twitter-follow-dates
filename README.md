@@ -47,4 +47,6 @@ Now you can just run the function `following_dates()` like this:
 ```
 following_dates(followers)
 ```
-And you will find an dictionnary key called `followed_at_earliest` in each follower dictionnary. 
+And you will find an dictionnary key called `followed_at_earliest` in each follower dictionnary.
+
+Feedback welcome!
